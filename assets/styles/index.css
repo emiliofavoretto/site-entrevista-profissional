@@ -2,6 +2,55 @@
     margin: auto;
     padding: 0%;
     box-sizing: border-box;
-    max-width: 100vh;
 }
+
+body {
+    background: linear-gradient(#0E2C40 70%, #1a4a5a);
+    height: 100vh; 
+    margin: 0;
+}
+
+.item-container {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+
+#imagem-psicologia {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.texto-header {
+    color: #148D8D;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.barra {
+    width: 100%;
+    height: 5px;
+    background-color: #148D8D;
+    margin-top: 10px;
+}
+
+.itens-graficos {
+    width: 330px;
+    height: 100px;
+    background-color: rgba(254, 255, 255, 0.26);
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.entrevista-img {
+    margin-right: 10px;
+}
+
+.galeria-img {
+    margin-left: 10px;
+}
+
 
